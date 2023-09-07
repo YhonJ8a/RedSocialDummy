@@ -1,0 +1,168 @@
+    .search-bar{ 
+        justify-content: center; 
+    }
+
+    .contenedor-tarjetas { 
+        /*margin-top: 1800px;
+        margin-top: 700px;*/
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        max-width: 750px;
+    }
+    
+    /* Estilos de la barra superior */
+    .barra-superior {
+        justify-content: center; 
+        background: linear-gradient(to top, #fdfdfd00, #00a9d3);
+        color: white;
+        padding: 10px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 6rem;
+        width: 100%;
+        z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    }
+
+    /* Estilos del contenido */
+    .contenido {
+        padding: 20px;
+        margin-top: 60px; /* Ajusta el margen superior para evitar solapamiento */
+    }
+    
+    .cardPrinc{
+        width: 350px;
+        background-color: #ffffff00;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .tags{
+        background-color: #d9ec07;
+        text-align: center;
+        height: 15px;
+        font-size: 12px;
+        padding: 0 3px;
+        margin: 5px;
+        border-radius: 2rem;
+    }
+
+    .tagsContainer{
+        font-weight: bold;
+        margin-bottom: 15px;
+        font-size: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        background-color: #fff;
+        border-radius: 3rem;
+        padding: 10px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    .headPost{
+        background-color: rgb(202, 234, 255);
+        border-radius: 4rem;
+        display: flex;
+    }
+
+    .headPost2{
+        border-radius: 4rem;
+        padding: 0px;
+    }
+
+    .date{
+        font-size: 10px;
+    }
+
+    .headPost h2{
+        font-size: 30px;
+    }
+
+    .bodyPost{ 
+        background-color: rgb(155, 211, 248);
+        border-radius: 3rem;
+    }
+
+    .bodyPostC{
+        display: flex;
+    }
+
+    .bodyPosC div{
+        display: block; /* Por defecto, <div> ya es un bloque, pero se incluye aquí para claridad */
+        margin-bottom: 20px; /* Espacio entre los <div> */
+        padding: 10px;
+        background-color: #f5f5f5;
+        border: 1px solid #ddd;
+    }
+    
+    .bodyPostC img{
+        padding: 10px;
+        height: 10rem;
+        width: 10rem; 
+        border-radius: 2rem;
+    }
+
+    .bodyPosB p{
+        margin: 0px;
+        text-align: left;
+        font-size: 13px;
+    }
+
+    .bodyPostC p{
+        padding: 10px;
+    }
+
+    .fotoUser {
+        max-width: 100%;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 5rem;
+        margin: 10px;
+    }
+    
+    .card h2 {
+        margin-top: 0;
+        font-size: 24px;
+    }
+    
+    .card p {
+        font-size: 16px;
+    }
+
+    .piePost{
+        text-align: center;
+        align-items: center;
+        display: block;
+    }
+
+    .piePost div{
+        margin: 0px;
+        align-items: center;
+        display: flex;
+    }
+
+    .piePost img{
+        border-radius: 0rem;
+        padding: 0px;
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .piePost p{
+        margin-bottom: 5px;
+    }
+
+    .piePost button{
+            background-color: #2c7dff;
+            color: white;
+            border: none;
+            padding: 5px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.2s;
+            margin-bottom: -10px;
+    }
